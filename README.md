@@ -56,9 +56,7 @@ pip install tensorflow==1.1.0
 2. Clone the repo
 ```shell
 # Clone Visemenet repo and the pretrained model
-git clone https://github.com/yzhou359/VisemeNet_tensorflow.git
-curl -L https://www.dropbox.com/sh/7nbqgwv0zz8pbk9/AAAghy76GVYDLqPKdANcyDuba?dl=0 > pretrained_model.zip
-unzip prtrained_model.zip -d VisemeNet_tensorflow/data/ckpt/pretrain_biwi/
+git clone https://github.com/fire/visemenet-inference.git
 ```
 
 3. Freeze Graph and Save as pb
